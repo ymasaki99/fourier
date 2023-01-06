@@ -6,4 +6,7 @@ jobs:
     name: Greeting
     runs-on: ubuntu-latest
     steps:
+      - uses: actions/checkout@v1
+      - run: cat sample.txt
       - run: echo "Hello, world!"
+      
